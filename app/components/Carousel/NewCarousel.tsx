@@ -47,7 +47,7 @@ const AutoCarousel: React.FC<AutoCarouselProps> = ({ images, links }) => {
 
   useEffect(() => {
     if (!isAutoSliding) {
-      const timeout = setTimeout(() => setIsAutoSliding(true), 10000);
+      const timeout = setTimeout(() => setIsAutoSliding(true), 30000);
       return () => clearTimeout(timeout);
     }
   }, [isAutoSliding]);
@@ -57,7 +57,7 @@ const AutoCarousel: React.FC<AutoCarouselProps> = ({ images, links }) => {
       <img
         src={images[index]}
         alt={`Slide ${index}`}
-        className="w-full h-full object-cover"
+        className="w-full h-full object-contain"
       />
     );
 

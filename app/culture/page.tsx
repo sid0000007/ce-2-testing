@@ -4,9 +4,9 @@ import { useEffect, useState } from "react";
 import "./culture.css";
 const Page = () => {
   return (
-    <main className="flex flex-col min-h-screen w-full bg-gray-900 text-white overflow-x-hidden">
+    <main className="flex flex-col min-h-screen w-full bg-gray-900 text-[#DADADA] overflow-x-hidden">
       <div className="m-0 p-0">
-        <img src="/placeholder.png" alt="" />
+        <img src="/banner/banner2.png" alt="" />
       </div>
       <div className="container mx-auto mt-16 px-16 py-8">
         <h1 className="text-2xl font-bold gradient-text mb-8">
@@ -61,11 +61,11 @@ const Page = () => {
               task and if it is time-sensitive, seek help and raise an early
               flag rather than losing time trying to figure it out yourself.
             </li>
+            <li>
+              Admit and Learn from Mistakes: If you make a mistake, acknowledge
+              it, learn from it, and implement steps to avoid repeating it.
+            </li>
           </ul>
-          <p className="mt-4">
-            Admit and Learn from Mistakes: If you make a mistake, acknowledge
-            it, learn from it, and implement steps to avoid repeating it.
-          </p>
         </section>
 
         <section className="mb-12">
@@ -211,9 +211,9 @@ const Page = () => {
             reflection of who we are and who we aspire to be. To encapsulate our
             culture, we draw inspiration from George Bernard Shaw, who said:
           </p>
-          <blockquote className="text-xl italic gradient-text mb-8">
-            "You see things; and you say 'Why?' But I dream things that never
-            were; and I say 'Why not?'"
+          <blockquote className="lg:text-xl  text-center italic gradient-text mb-8">
+            "You see things; and you say 'Why?'
+            <br /> But I dream things that never were; and I say 'Why not?'"
           </blockquote>
           <p>
             At Creator Engine, we embrace change and actively shape it. We stay

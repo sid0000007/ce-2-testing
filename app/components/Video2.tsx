@@ -5,9 +5,9 @@ const Video2 = () => {
       loop
       muted
       playsInline
-      className="object-cover w-full h-full"
+      className="object-contain w-full h-full absolute top-0"
     >
-      <source src="/videos/video_2.mp4" type="video/mp4" />
+      <source src="/videos/video_3.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
   );

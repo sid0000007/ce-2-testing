@@ -33,13 +33,13 @@ const page = (props: Props) => {
       </Head>
       <main className="  flex flex-col  w-screen overflow-hidden">
         <div className="m-0 p-0">
-          <img src="/placeholder.png" alt="" />
+          <img src="/banner/banner4.jpg" alt="" />
         </div>
         <div className="min-h-fit w-screen flex flex-col justify-center px-8 lg:px-16 ">
-          <span className="self-center text-2xl lg:text-3xl font-bold mt-10 lg:mt-16 mb-8 lg:mb-16 ">
+          <span className="self-start text-2xl lg:text-3xl font-bold mt-10 lg:mt-16 mb-4 lg:mb-8 ">
             Join Our Team
           </span>
-          <h2 className="self-center text-xl px-2 text-center">
+          <h2 className="self-start  text-xl px-2 text-left">
             At Creator Engine, we are always on the lookout for specialists in
             <span className="text-teal-400">
               {" "}
@@ -49,32 +49,41 @@ const page = (props: Props) => {
             . Explore our open positions below or send us an email with your
             showreel and cover letter at{" "}
             <span className="text-teal-400 hover:underline">
-              <a href="mailto:career@creatorengine.studio.">
+              <a href="mailto:career@creatorengine.studio">
                 {" "}
                 career@creatorengine.studio.
               </a>
             </span>
           </h2>
-          <span className="mt-16 text-xl px-8 lg:px-16 ">
+          <div className="py-6 w-full self-end flex flex-col gap-2 items-center  justify-center">
+            <Button className="bg-background  hover:scale-110 transition duration-300 text-xl rounded-full  border-2 hover:bg-background border-teal-400">
+              <Link href="https://www.linkedin.com/company/creatorengine/jobs/">
+                <span className="gradient-text">
+                  Click here to see open positions
+                </span>
+              </Link>{" "}
+            </Button>
+            <Button className="bg-background hover:scale-110 transition duration-300 text-xl rounded-full  border-2 hover:bg-background border-teal-400">
+              <Link href="/culture">
+                <span className="gradient-text">
+                  Read more about our culture here
+                </span>
+              </Link>{" "}
+            </Button>
+          </div>
+          {/* <span className=" mb-8 text-xl text-left ">
             Curious about what it’s like to work at Creator Engine? Read more
             about our{" "}
             <span className="hover:underline text-teal-400 ">
               <Link href="/culture">culture here.</Link>{" "}
             </span>{" "}
-          </span>
-          <div className="my-6 flex flex-col gap-3">
+          </span> */}
+          {/* <div className="my-6 flex flex-col gap-3">
             <span className="text-teal-400 font-semibold text-xl ">
               AVAILABLE POSITIONS :
             </span>
             <img src="/career_card.png" alt="" />
-          </div>
-          <div className="py-6 w-full self-end  flex justify-end">
-            <Button className="bg-background rounded-full  border-2 hover:bg-background border-teal-400">
-              <Link href="www.linkedin.com">
-                <span className="gradient-text">Get Notified</span>
-              </Link>{" "}
-            </Button>
-          </div>
+          </div> */}
         </div>
       </main>
     </>
