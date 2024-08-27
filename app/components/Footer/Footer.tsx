@@ -47,13 +47,7 @@ const Footer = () => {
 
         <div className="text-center text-sm py-4 flex flex-col justify-center items-center gap-1">
           <Link href="/">
-            <img
-              className=" cursor-pointer "
-              src="./logo.svg"
-              alt="logo"
-              width={100}
-              height={100}
-            />
+            <img className="cursor-pointer w-20" src="./logo.svg" alt="logo" />
           </Link>
           &copy; CREATOR ENGINE 2024
         </div>
