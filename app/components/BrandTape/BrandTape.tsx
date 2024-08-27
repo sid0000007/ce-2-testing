@@ -316,7 +316,7 @@ import "./brandtape.css";
 
 const brands = [
   {
-    name: "Mark Weins",
+    name: "Mark Wiens",
     image: "/brands/brands1.png",
     circle: true,
   },
@@ -346,7 +346,7 @@ const brands = [
     circle: true,
   },
   {
-    name: "Sprount",
+    name: "Sprouht",
     image: "/brands/brands7.png",
     circle: true,
   },
