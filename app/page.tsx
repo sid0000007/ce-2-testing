@@ -326,7 +326,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
       </Head>
       <main className="-z-10 flex flex-col w-screen overflow-hidden">
-        <div className="top-0 h-[90vh] mt-0 pt-0 w-full">
+        <div className="top-0 h-[90vh] lg:h-[100vh] mt-0 pt-0 w-full">
           {isMobile ? <Video2 /> : <Video1 />}
         </div>
 
