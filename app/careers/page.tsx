@@ -71,19 +71,6 @@ const page = (props: Props) => {
               </Link>{" "}
             </Button>
           </div>
-          {/* <span className=" mb-8 text-xl text-left ">
-            Curious about what it’s like to work at Creator Engine? Read more
-            about our{" "}
-            <span className="hover:underline text-teal-400 ">
-              <Link href="/culture">culture here.</Link>{" "}
-            </span>{" "}
-          </span> */}
-          {/* <div className="my-6 flex flex-col gap-3">
-            <span className="text-teal-400 font-semibold text-xl ">
-              AVAILABLE POSITIONS :
-            </span>
-            <img src="/career_card.png" alt="" />
-          </div> */}
         </div>
       </main>
     </>

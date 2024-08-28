@@ -2,10 +2,10 @@ import Link from "next/link";
 import { Linkedin } from "lucide-react";
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-gray-200 h-[50vh]">
-      <div className="max-w-7xl mx-auto px-8 sm:px-6 lg:px-8 h-full flex flex-col justify-between">
-        <div className="flex flex-col px-8 md:flex-row justify-between items-center py-20">
-          <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 text-center lg:text-xl">
+    <footer className="bg-gray-800 text-gray-200  lg:h-[30vh] ">
+      <div className=" mx-auto px-8 sm:px-6 lg:px-8  flex flex-col justify-between h-full">
+        <div className="flex flex-col mt-4 px-8 md:flex-row justify-between items-center ">
+          <ul className="flex flex-col lg:flex-row space-y-2 md:space-y-0 md:space-x-6 text-center lg:text-xl">
             <li>
               <Link
                 href="/"
@@ -33,7 +33,7 @@ const Footer = () => {
             </li>
           </ul>
 
-          <div className="flex items-center space-x-4  mt-6 md:mt-0">
+          <div className="flex items-center space-x-4  lg:mt-6 mt-6 mb-2">
             <Link
               href="https://www.linkedin.com/company/creatorengine/"
               target="_blank"

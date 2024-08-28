@@ -382,7 +382,7 @@ export default function Home() {
                  h-full
                w-full"
               >
-                <ScrollAnimationWrapper>
+                {/* <ScrollAnimationWrapper>
                   <img
                     src="/Netflix.png"
                     className="ml-2 lg:w-28 w-20 "
@@ -400,6 +400,13 @@ export default function Home() {
                   <img
                     src="/Amazon.png"
                     className="ml-2 lg:w-36 w-20  "
+                    alt=""
+                  />
+                </ScrollAnimationWrapper> */}
+                <ScrollAnimationWrapper className="w-full flex flex-row justify-center items-center">
+                  <img
+                    src="/illustrations/ottlogos.png"
+                    className="lg:ml-2 ml-4 lg:w-[500px]"
                     alt=""
                   />
                 </ScrollAnimationWrapper>

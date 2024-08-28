@@ -357,13 +357,13 @@ const brands = [
   },
   {
     name: "",
-    image: "/brands/brands12.png",
+    image: "/brands/bungalowlast.png",
     circle: false,
   },
 
   {
     name: "",
-    image: "/brands/brands11.png",
+    image: "/brands/roundlast.png",
     circle: false,
   },
   {
@@ -373,13 +373,13 @@ const brands = [
   },
   {
     name: "",
-    image: "/brands/NatGeo10.png",
+    image: "/brands/natgeolast.png",
     circle: false,
   },
 
   {
     name: "",
-    image: "/brands/Vizio10.png",
+    image: "/brands/viziolast.png",
     circle: false,
   },
 ];
