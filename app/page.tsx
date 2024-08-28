@@ -345,7 +345,8 @@ export default function Home() {
           <div className="flex flex-col justify-center w-full lg:gap-0 gap-1 lg:justify-around">
             <ScrollAnimationWrapper>
               <p className="text-list ml-0 mt-4 lg:mt-8 text-balance lg:pr-0 pr-2">
-                Editing • Graphics • Animation • Color Grading • Motion Design
+                Editing • Graphics • Animation • Color Grading • Motion Design{" "}
+                <span className="lg:hidden">•</span>
               </p>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper>
