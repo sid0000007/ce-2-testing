@@ -33,11 +33,8 @@ const page = (props: Props) => {
       </Head>
       <main className="  flex flex-col  w-screen overflow-hidden">
         <div className="m-0 p-0">
-          <img
-            src="/banner/banner4.jpg"
-            className=" lg:h-auto h-[155px]"
-            alt=""
-          />
+          <img src="/banner/banner4.jpg" className=" lg:block hidden " alt="" />
+          <img src="/banner/banner6.jpg" className="lg:hidden block " alt="" />
         </div>
         <div className="min-h-fit w-screen flex flex-col justify-center px-8 lg:px-16 ">
           <span className="self-start text-2xl lg:text-3xl font-bold mt-10 lg:mt-16 mb-4 lg:mb-8 ">
