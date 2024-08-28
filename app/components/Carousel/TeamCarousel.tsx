@@ -48,11 +48,7 @@ const TeamCarousel1: React.FC<CarouselProps> = ({ images }) => {
                     className="w-full h-full shadow-md object-cover rounded"
                     loading="lazy"
                   />
-                  <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300">
-                    <span className="text-white text-sm sm:text-xl font-bold">
-                      Join Our Team
-                    </span>
-                  </div>
+                  <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
               </Link>
             ) : (
