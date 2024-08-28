@@ -326,12 +326,12 @@ export default function Home() {
         <meta property="og:type" content="website" />
       </Head>
       <main className="-z-10 flex flex-col w-screen overflow-hidden">
-        <div className="top-0 h-[90vh] lg:h-[100vh] mt-0 pt-0 w-full">
+        <div className="top-0 h-[100vh] lg:h-[100vh] mt-0 pt-0 w-full">
           {isMobile ? <Video2 /> : <Video1 />}
         </div>
 
         {/* Mid-text-1: Initial text */}
-        <div className="mid-section flex flex-col lg:mt-7 mt-16  justify-start min-h-fit px-8 lg:px-20 text-[#DADADA] text-large  lg:text-xl text-center">
+        <div className="mid-section flex flex-col lg:mt-8 mt-16  justify-start min-h-fit px-8 lg:px-20 text-[#DADADA] text-large  lg:text-xl text-center">
           {/* <TextGenerateEffect
             words={headingAbout}
             className="lg:text-4xl  text-2xl mt-8 mb-4 "
