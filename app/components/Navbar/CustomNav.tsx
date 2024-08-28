@@ -9,7 +9,7 @@ export function FloatingNavbar() {
       link: "/",
     },
     {
-      name: "ABOUT US",
+      name: "HOME",
       link: "/",
     },
     {
