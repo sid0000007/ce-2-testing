@@ -116,7 +116,7 @@ export default function YoutubeThumbnails() {
               alt="youtube-thumbnails"
               width={250}
               height={250}
-              className="rounded-sm"
+              className="rounded-md mb-4 "
             />
           </a>
         </motion.div>
