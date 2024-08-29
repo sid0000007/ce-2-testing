@@ -1,62 +1,3 @@
-// // components/YoutubeThumbnails.tsx
-// import { useState, useEffect } from "react";
-// import Carousel, { CarouselThumb } from "./Carousel/Carousel";
-// import { motion } from "framer-motion";
-// import AutoCarousel from "./Carousel/NewCarousel";
-// const thumbnails = [
-//   "/video1.png",
-//   "/video2.png",
-//   "/video3.png",
-//   "/video4.png",
-//   "/video5.png",
-//   "/video6.png",
-//   "/video7.png",
-//   "/video8.png",
-//   "/video9.png",
-// ];
-
-// export default function YoutubeThumbnails() {
-//   const [isMobile, setIsMobile] = useState(false);
-
-//   useEffect(() => {
-//     const checkMobile = () => {
-//       setIsMobile(window.innerWidth < 768); // Adjust this breakpoint as needed
-//     };
-
-//     checkMobile();
-//     window.addEventListener("resize", checkMobile);
-
-//     return () => window.removeEventListener("resize", checkMobile);
-//   }, []);
-
-//   if (isMobile) {
-//     return <AutoCarousel images={thumbnails} />;
-//   }
-
-//   return (
-//     <div className="grid grid-cols-3 space-x-0 gap-4 px-36">
-//       {thumbnails.map((src, index) => (
-//         <motion.div
-//           key={index}
-//           whileHover={{ scale: 1.1 }}
-//           whileTap={{ scale: 0.9 }}
-//           transition={{ type: "spring", stiffness: 400, damping: 10 }}
-//         >
-//           <img
-//             key={index}
-//             src={src}
-//             alt="youtube-thumbnails"
-//             width={250}
-//             height={250}
-//             className="rounded-sm"
-//           />
-//         </motion.div>
-//       ))}
-//     </div>
-//   );
-// }
-
-// components/YoutubeThumbnails.tsx
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import AutoCarousel from "./Carousel/NewCarousel";
@@ -102,25 +43,27 @@ export default function YoutubeThumbnails() {
   }
 
   return (
-    <div className="grid grid-cols-3 space-x-0 my-6 gap-2 px-36">
-      {thumbnails.map((src, index) => (
-        <motion.div
-          key={index}
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          transition={{ type: "spring", stiffness: 400, damping: 10 }}
-        >
-          <a href={links[index]} target="_blank" rel="noopener noreferrer">
-            <img
-              src={src}
-              alt="youtube-thumbnails"
-              width={250}
-              height={250}
-              className="rounded-md mb-6 "
-            />
-          </a>
-        </motion.div>
-      ))}
+    <div className="flex flex-col w-full  justify-center items-center">
+      <div className="grid grid-cols-3 space-x-0 max-w-[1200px]   my-6 gap-10 px-36">
+        {thumbnails.map((src, index) => (
+          <motion.div
+            key={index}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+          >
+            <a href={links[index]} target="_blank" rel="noopener noreferrer">
+              <img
+                src={src}
+                alt="youtube-thumbnails"
+                width={250}
+                height={250}
+                className="rounded-md mb-2 "
+              />
+            </a>
+          </motion.div>
+        ))}
+      </div>
     </div>
   );
 }

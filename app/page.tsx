@@ -195,12 +195,12 @@ export default function Home() {
         <div className="w-screen lg:h-[80vh] h-[30vh]">
           <AutoCarousel images={testimonials2} />
         </div>
-        <div className="w-full flex flex-col   h-full my-16 md:mt-32 lg:my-7">
+        <div className="w-full flex flex-col justify-center    h-full my-16 md:mt-32 lg:my-7">
           <TextGenerateEffect
             words={headingYoutube}
             className="lg:text-4xl  text-2xl mt-8 mb-4 ml-4 md:ml-12 lg:ml-16 "
           />
-          <div className="self-center lg:ml-8 w-full h-full">
+          <div className=" lg:ml-8 w-full h-full ">
             <YoutubeThumbnails />
           </div>
         </div>
