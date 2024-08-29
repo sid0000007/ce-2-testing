@@ -54,17 +54,17 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Creator Engine",
   description: "Creator engine",
-  icons: {
-    icon: [
-      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
-      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
-      { url: "/favicon-192x192.png", sizes: "192x192", type: "image/png" },
-    ],
-    apple: [
-      { url: "/apple-icon-180x180.png", sizes: "180x180", type: "image/png" },
-    ],
-  },
+  // icons: {
+  //   icon: [
+  //     { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+  //     { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+  //     { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+  //     { url: "/favicon-192x192.png", sizes: "192x192", type: "image/png" },
+  //   ],
+  //   apple: [
+  //     { url: "/apple-icon-180x180.png", sizes: "180x180", type: "image/png" },
+  //   ],
+  // },
   openGraph: {
     title: "Professional Post-Production Services | Creator Engine",
     description:
@@ -104,6 +104,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/faviconblue.ico" sizes="any" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
