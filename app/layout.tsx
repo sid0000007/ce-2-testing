@@ -90,10 +90,7 @@ export const metadata: Metadata = {
     "Disney+ Hotstar",
     "professional post-production services",
   ],
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-  },
+
   robots: {
     index: true,
     follow: true,
