@@ -200,7 +200,7 @@ export default function Home() {
             words={headingYoutube}
             className="lg:text-4xl  text-2xl mt-8 mb-4 ml-4 md:ml-12 lg:ml-16 "
           />
-          <div className="self-center lg:ml-4 w-full h-full">
+          <div className="self-center lg:ml-8 w-full h-full">
             <YoutubeThumbnails />
           </div>
         </div>
