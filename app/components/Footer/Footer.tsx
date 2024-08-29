@@ -2,9 +2,9 @@ import Link from "next/link";
 import { Linkedin } from "lucide-react";
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-gray-200  lg:h-[30vh] ">
+    <footer className="bg-gray-800 text-gray-200 py-8 lg:py-2  lg:h-[35vh] w-full h-full  ">
       <div className=" mx-auto px-8 sm:px-6 lg:px-8  flex flex-col justify-between h-full">
-        <div className="flex flex-col mt-4 px-8 md:flex-row justify-between items-center ">
+        <div className="flex flex-col mt-4 px-8 lg:flex-row md:flex-row justify-between items-center ">
           <ul className="flex flex-col lg:flex-row space-y-2 md:space-y-0 md:space-x-6 text-center lg:text-xl">
             <li>
               <Link

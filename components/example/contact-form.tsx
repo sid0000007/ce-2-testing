@@ -83,7 +83,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="max-w-lg w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input  bg-black">
+    <div className="max-w-lg w-full mt-8 py-4  mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input  bg-black">
       <h2 className="font-bold text-xl  text-neutral-200">Let's Partner Up!</h2>
       <p className="text-sm max-w-sm mt-2 text-neutral-300">
         Reach out at{" "}

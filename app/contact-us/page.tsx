@@ -5,9 +5,11 @@ type Props = {};
 
 const page = (props: Props) => {
   return (
-    <div className=" lg:top-16 top-24 relative lg:px-2 px-6  w-full flex flex-col justify-center items-center ">
+    <div className=" min-h-fit  my-4 lg:px-2 px-6  w-full flex flex-col justify-center items-center ">
       <ContactForm />
-      <div className="w-[100vw] h-[20vh]">.</div>
+      <div className="w-full lg:mt-4">
+        <span className="text-background mt-24">.</span>
+      </div>
     </div>
   );
 };
