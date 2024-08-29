@@ -102,7 +102,7 @@ export default function YoutubeThumbnails() {
   }
 
   return (
-    <div className="grid grid-cols-3 space-x-0 my-6 gap-4 px-36">
+    <div className="grid grid-cols-3 space-x-0 my-6 gap-2 px-36">
       {thumbnails.map((src, index) => (
         <motion.div
           key={index}
@@ -116,7 +116,7 @@ export default function YoutubeThumbnails() {
               alt="youtube-thumbnails"
               width={250}
               height={250}
-              className="rounded-md mb-4 "
+              className="rounded-md mb-6 "
             />
           </a>
         </motion.div>
