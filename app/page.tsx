@@ -1,7 +1,5 @@
 // // ==================================================================
-
 "use client";
-
 import { useEffect, useState } from "react";
 import Video1 from "./components/Video1";
 import Video2 from "./components/Video2";
@@ -22,47 +20,6 @@ import {
 import YoutubeThumbnails from "./components/YoutubeThumbnails";
 import ScrollAnimationWrapper from "./components/ScrollAnimationWrapper";
 // app/your-page-name/page.tsx or app/your-page-name/layout.tsx
-
-export const metadata = {
-  title: "Professional Post-Production Services | Creator Engine Studio",
-  description:
-    "Explore our portfolio of top-tier post-production services, including video editing, sound design, and VFX, trusted by studios like Netflix, Amazon Prime, and Disney+ Hotstar.",
-  keywords: [
-    "post-production",
-    "video editing",
-    "sound design",
-    "VFX",
-    "color grading",
-    "motion graphics",
-    "Netflix",
-    "Amazon Prime",
-    "Disney+ Hotstar",
-    "professional post-production services",
-  ],
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-  openGraph: {
-    title: "Professional Post-Production Services | Creator Engine",
-    description:
-      "We provide end-to-end post-production services for digital creators, television, streaming, and more. Check out our work with industry giants like Netflix, Amazon Prime, and Disney+ Hotstar.",
-    images: [
-      {
-        url: "/banner/banner6.jpg", // Relative path to the local image
-        alt: "Post-production services",
-        width: 1200, // Optional
-        height: 630, // Optional
-      },
-    ],
-    url: "https://www.creatorengine.studio",
-    type: "website",
-  },
-};
 
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);

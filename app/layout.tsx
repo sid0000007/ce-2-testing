@@ -65,6 +65,41 @@ export const metadata: Metadata = {
       { url: "/apple-icon-180x180.png", sizes: "180x180", type: "image/png" },
     ],
   },
+  openGraph: {
+    title: "Professional Post-Production Services | Creator Engine",
+    description:
+      "We provide end-to-end post-production services for digital creators, television, streaming, and more. Check out our work with industry giants like Netflix, Amazon Prime, and Disney+ Hotstar.",
+    images: [
+      {
+        url: "/images/og-image.jpg", // Assuming this image is in the public/images folder
+        alt: "Post-production services",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    url: "https://www.creatorengine.studio",
+    type: "website",
+  },
+  keywords: [
+    "post-production",
+    "video editing",
+    "sound design",
+    "VFX",
+    "color grading",
+    "motion graphics",
+    "Netflix",
+    "Amazon Prime",
+    "Disney+ Hotstar",
+    "professional post-production services",
+  ],
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
