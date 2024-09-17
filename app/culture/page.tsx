@@ -109,9 +109,50 @@ const Page = () => {
             </li>
           </ul>
         </section>
-
         <section className="mb-12">
           <h2 className="text-2xl font-semibold gradient-text mb-4">Clarity</h2>
+          <p className="mb-4">
+            Clear communication and transparent processes are essential to build
+            alignment. We strive for clarity in our goals, roles, and
+            expectations, ensuring everyone understands their contributions and
+            how they fit into the bigger picture. This clarity drives focus and
+            efficiency.
+          </p>
+          <ul className="list-disc list-inside space-y-2 ml-4">
+            <li>
+              Set Common Goals that Align with Business Needs: Collaborate with
+              your team/immediate manager to set specific, measurable goals for
+              each project/role and keep tracking your progress.
+            </li>
+            <li>
+              Provide/Seek Clear Instructions: When assigning or taking on a
+              task, give/seek clear, detailed instructions to avoid
+              misunderstandings. Avoid jargon and use simple, straightforward
+              language in communications. Align on expectations for deadlines
+              and deliverables.
+            </li>
+            <li>
+              Seek Context: Understanding the full context of your work is
+              crucial. Promote clarity by urging everyone to ask questions and
+              push for comprehensive information from clients/teammates.
+              Feedback from a client/teammate might differ from what we presume.
+              Seeking context in those times helps us align better and get
+              clarity.
+            </li>
+            <li>
+              Document Processes: Maintain clear documentation of workflows and
+              procedures/checklists for reference. Maintaining learning docs for
+              clients often helps in reducing recurring feedback.
+            </li>
+            <li>
+              Be Transparent: Share information openly with your team to avoid
+              confusion and build trust.
+            </li>
+          </ul>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold gradient-text mb-4">Care</h2>
           <p className="mb-4">
             We care deeply about our clients and our colleagues. This care
             translates into a supportive environment where clients' time,
