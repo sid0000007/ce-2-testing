@@ -51,35 +51,6 @@ export default function Home() {
 
   return (
     <>
-      {/* <Head>
-        <title>
-          Professional Post-Production Services | [Career Engine Studio]
-        </title>
-        <meta
-          name="description"
-          content="Explore our portfolio of top-tier post-production services, including video editing, sound design, and VFX, trusted by studios like Netflix, Amazon Prime, and Disney+ Hotstar."
-        />
-        <meta
-          name="keywords"
-          content="post-production, video editing, sound design, VFX, color grading, motion graphics, Netflix, Amazon Prime, Disney+ Hotstar, professional post-production services"
-        />
-        <meta name="robots" content="index, follow" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-          property="og:title"
-          content="Professional Post-Production Services | Creator Engine"
-        />
-        <meta
-          property="og:description"
-          content="We provide end-to-end post-production services for digital creators, television, streaming, and more. Check out our work with industry giants like Netflix, Amazon Prime, and Disney+ Hotstar."
-        />
-        <meta
-          property="og:image"
-          content="https://innovatureinc.com/wp-content/uploads/2022/02/video-post-production_2.jpeg"
-        />
-        <meta property="og:url" content="www.creatorengine.studio" />
-        <meta property="og:type" content="website" />
-      </Head> */}
       <main className="-z-10 flex flex-col w-screen overflow-hidden">
         <div className="top-0 h-[100vh] lg:h-[100vh] mt-0 pt-0 w-full">
           {isMobile ? <Video2 /> : <Video1 />}
@@ -111,18 +82,7 @@ export default function Home() {
               </p>
             </ScrollAnimationWrapper>
           </div>
-          {/* <div className="flex flex-row justify-center w-full lg:gap-0 gap-1 lg:justify-around">
-            <ul className="text-list ml-0 text-balance lg:pr-0 pr-2">
-              <li>Editing</li>
-              <li>Graphics</li>
-              <li>Animation</li>
-              <li>Color Grading</li>
-              <li>Motion Designing</li>
-              <li>Sound Design & Mixing</li>
-              <li>Creative Music Production</li>
-              <li>Post Production Management</li>
-            </ul>
-          </div> */}
+          
           <div>
             <div className="flex flex-wrap px-6 lg:px-16 mt-4 lg:mt-10">
               <ScrollAnimationWrapper className="w-full">
@@ -137,28 +97,7 @@ export default function Home() {
                 className="  flex flex-row gap-1 my-3 items-center justify-center lg:justify-evenly
                  h-full
                w-full"
-              >
-                {/* <ScrollAnimationWrapper>
-                  <img
-                    src="/Netflix.png"
-                    className="ml-2 lg:w-28 w-20 "
-                    alt=""
-                  />
-                </ScrollAnimationWrapper>
-                <ScrollAnimationWrapper>
-                  <img
-                    src="/logos/hotstar.svg"
-                    className="mr-4 ml-2 lg:w-36 w-20  "
-                    alt=""
-                  />
-                </ScrollAnimationWrapper>
-                <ScrollAnimationWrapper>
-                  <img
-                    src="/Amazon.png"
-                    className="ml-2 lg:w-36 w-20  "
-                    alt=""
-                  />
-                </ScrollAnimationWrapper> */}
+              >                
                 <ScrollAnimationWrapper className="w-full flex flex-row justify-center items-center">
                   <img
                     src="/illustrations/ottlogos.png"
@@ -215,5 +154,4 @@ export default function Home() {
       </main>
     </>
   );
-  
 }

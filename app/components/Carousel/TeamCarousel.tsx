@@ -64,20 +64,6 @@ const TeamCarousel1: React.FC<CarouselProps> = ({ images }) => {
           </div>
         ))}
       </div>
-
-      {/* <button
-        onClick={() => scroll("left")}
-        className="absolute top-1/2 -translate-y-1/2 left-2 sm:left-4 bg-white bg-opacity-50 text-gray-800 p-1 sm:p-2 rounded-full hover:bg-opacity-75 focus:outline-none focus:ring"
-      >
-        <ChevronLeft className="h-4 w-4 sm:h-6 sm:w-6" />
-      </button>
-
-      <button
-        onClick={() => scroll("right")}
-        className="absolute top-1/2 -translate-y-1/2 right-2 sm:right-4 bg-white bg-opacity-50 text-gray-800 p-1 sm:p-2 rounded-full hover:bg-opacity-75 focus:outline-none focus:ring"
-      >
-        <ChevronRight className="h-4 w-4 sm:h-6 sm:w-6" />
-      </button> */}
     </div>
   );
 };
