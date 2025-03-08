@@ -3,28 +3,35 @@ import { motion } from "framer-motion";
 import AutoCarousel from "./Carousel/NewCarousel";
 
 const thumbnails = [
-  "/video1.png",
-  "/video2.png",
-  "/video3.png",
-  "/video4.png",
-  "/video5.png",
-  "/video6.png",
-  "/video7.png",
-  "/video8.png",
-  "/video9.png",
+  "/thumbnail/v2/1.png",
+  "/thumbnail/v2/2.png",
+  "/thumbnail/v2/3.png",
+  "/thumbnail/v2/4.png",
+  "/thumbnail/v2/5.png",
+  "/thumbnail/v2/6.png",
+  "/thumbnail/v2/7.png",
+  "/thumbnail/v2/8.png",
+  "/thumbnail/v2/9.png",
+  "/thumbnail/v2/10.png",
+  "/thumbnail/v2/11.png",
+  "/thumbnail/v2/12.png",
 ];
 
 const links = [
-  "https://youtu.be/LxjaWhvkgKU?si=UT7amlQprbz_e_gN",
-  "https://youtu.be/XfQ5mSaIW1I?si=tFOFmI6RFJ_UTZHH",
-  "https://youtu.be/NFw-WizIt50?si=RZ32ysW0mAPVUMzP",
-  "https://youtu.be/VZIc5jXss-g?si=GfdWKGcI0rYeSB66",
-  "https://youtu.be/bOQ8mdbAXEY?si=KPW9fDiWJHftsCHt",
-  "https://youtu.be/tKlWUsLLCow?si=t7n4BzdTGDf__7dQ",
-  "https://youtu.be/SCIOOlT3KJI?si=RH36CdOYFx5QbHuI",
-  "https://youtu.be/Zq5AEc7WJf4?si=UkMYbC_SteA2iUdS",
-  "https://youtu.be/IY46OCJVro4?si=sbl7GD5Ru5sqEbTm",
-];
+  "https://www.youtube.com/watch?v=IMxIXkeE61s",
+  "https://www.youtube.com/watch?v=MY3Qy6vAbZQ",
+  "https://www.youtube.com/watch?v=XfQ5mSaIW1I",
+  "https://www.youtube.com/watch?v=tKlWUsLLCow",
+  "https://www.youtube.com/watch?v=NFw-WizIt50",
+  "https://www.youtube.com/watch?v=Zq5AEc7WJf4",
+  "https://www.youtube.com/watch?v=SCIOOlT3KJI",
+  "https://www.youtube.com/watch?v=VZIc5jXss-g",
+  "https://www.youtube.com/watch?v=ctrJIelm7T0",
+  "https://www.youtube.com/watch?v=6kvFxnoKCs8",
+  "https://www.youtube.com/watch?v=yu6QSO37m9c",
+  "https://www.youtube.com/watch?v=NHput00wFIw"
+]
+ 
 
 export default function YoutubeThumbnails() {
   const [isMobile, setIsMobile] = useState(false);
@@ -44,7 +51,7 @@ export default function YoutubeThumbnails() {
 
   return (
     <div className="flex flex-col w-full  justify-center items-center">
-      <div className="grid grid-cols-3 space-x-0 max-w-[1200px]   my-6 gap-10 px-36">
+      <div className="grid grid-cols-3 space-x-0 max-w-[1200px] my-6 gap-2 px-12">
         {thumbnails.map((src, index) => (
           <motion.div
             key={index}
@@ -58,7 +65,7 @@ export default function YoutubeThumbnails() {
                 alt="youtube-thumbnails"
                 width={250}
                 height={250}
-                className="rounded-lg mb-2 "
+                className="rounded-lg "
               />
             </a>
           </motion.div>

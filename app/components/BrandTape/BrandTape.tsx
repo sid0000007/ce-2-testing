@@ -44,7 +44,7 @@ const brands = [
   },
   {
     name: "",
-    image: "/brands/bungalowlast.png",
+    image: "/brands/bunglowV2.png",
     circle: false,
   },
 
@@ -59,15 +59,20 @@ const brands = [
     circle: false,
   },
   {
-    name: "",
-    image: "/brands/natgeolast.png",
-    circle: false,
+    name: "National Geographic",
+    image: "/brands/natGeoV2.png",
+    circle: true,
   },
 
   {
-    name: "",
-    image: "/brands/viziolast.png",
-    circle: false,
+    name: "VIZIO",
+    image: "/brands/Vizio.png",
+    circle: true,
+  },
+  {
+    name: "Dhar Mann Studios",
+    image: "/brands/DharV2.png",
+    circle: true,
   },
 ];
 
@@ -76,12 +81,12 @@ const repeatedBrands = [...Array(5)].flatMap(() => brands);
 
 const BrandTape = () => {
   return (
-    <div className="carousel min-h-fit py-2">
+    <div className="carousel min-h-56 py-2">
       <div className="carousel-track">
         {repeatedBrands.map((brand, index) => (
           <div
             key={index}
-            className="carousel-item flex flex-col items-center justify-center text-sm"
+            className="carousel-item flex flex-col items-center justify-start text-sm"
           >
             <img
               src={brand.image}

@@ -137,17 +137,17 @@ export default function Home() {
         <div className="w-full flex flex-col justify-center    h-full my-16 md:mt-32 lg:my-7">
           <TextGenerateEffect
             words={headingYoutube}
-            className="lg:text-4xl  text-2xl mt-8 mb-4 ml-4 md:ml-12 lg:ml-16 "
+            className="lg:text-4xl  text-2xl mt-8 mb-4 ml-4 md:ml-12 lg:mx-36 "
           />
           <div className=" lg:ml-8 w-full h-full ">
             <YoutubeThumbnails />
           </div>
         </div>
 
-        <div className="team-members w-full mt-16 min-h-fit flex flex-col  ">
+        <div className="team-members w-full mt-16 min-h-fit flex flex-col ">
           <TextGenerateEffect
             words={headingTeam}
-            className="lg:text-4xl text-2xl ml-4 md:ml-12 lg:ml-16"
+            className="lg:text-4xl text-2xl ml-4 md:ml-12 lg:mx-36"
           />
           <TeamCarousel images={teams} />
         </div>
