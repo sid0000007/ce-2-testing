@@ -13,25 +13,10 @@ export const testimonials = ["/Test1.png", "/Test2.png", "/Test3.png"];
 export const testimonials2 = [
   "/test/Gavin_RossDale.png",
   "/test/Dominic.png",
-  "/test/test_1.png",
-  "test/test_2.png",
+  "/test/markweins.png",
+  "/test/Retiredworking.png",
   "/test/StrangeParts.png",
 ];
-// export const teams2 = [
-//   "/team/RupeshShinde_2.png",
-//   "/team/JonasBritto_2.png",
-//   "/team/SauravKarmakar_2.png",
-//   "/team/PranavRatra_2.png",
-//   "/team/AsadRazaKhan_2.png",
-//   "/team/Nandan_2.png",
-//   "/team/VijaySharma_2.png",
-//   "/team/Rahul_2.png",
-//   "/team/Newel_2.png",
-//   "/team/JoshuaFreitas_2.png",
-//   "/team/JustusGomes_2.png",
-//   "/team/Kaushik_2.png",
-//   "/team/Atma_2.png",
-// ];
 export const teams = [
   "/team/v2/1.png",
   "/team/v2/2.png",
