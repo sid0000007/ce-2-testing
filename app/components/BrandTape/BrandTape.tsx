@@ -65,9 +65,9 @@ const brands = [
   },
 
   {
-    name: "VIZIO",
+    name: "",
     image: "/brands/Vizio.png",
-    circle: true,
+    circle: false,
   },
   {
     name: "Dhar Mann Studios",

@@ -51,7 +51,7 @@ export default function YoutubeThumbnails() {
 
   return (
     <div className="flex flex-col w-full  justify-center items-center">
-      <div className="grid grid-cols-3 space-x-0 max-w-[1200px] my-6 gap-2 px-12">
+      <div className="grid grid-cols-4 space-x-0 max-w-[1200px] my-6 gap-2 px-12">
         {thumbnails.map((src, index) => (
           <motion.div
             key={index}
