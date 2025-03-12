@@ -37,11 +37,11 @@ const TeamCarousel1: React.FC<CarouselProps> = ({ images }) => {
         {images.map((src, index) => (
           <div
             key={index}
-            className="w-1/2 sm:w-1/3 md:w-1/3 lg:w-1/3 flex-shrink-0 snap-start px-2"
+            className="w-1/2 sm:w-1/3 md:w-1/3 lg:w-1/3 flex-shrink-0 snap-start "
           >
             {index === images.length - 1 ? (
               <Link href="/careers" passHref>
-                <div className="bg-background p-2 sm:p-4 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 aspect-w-16 aspect-h-9 cursor-pointer">
+                <div className="bg-background px-2 py-6  rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 aspect-w-16 aspect-h-9 cursor-pointer">
                   <img
                     src={src}
                     alt="Join Our Team"
@@ -52,7 +52,7 @@ const TeamCarousel1: React.FC<CarouselProps> = ({ images }) => {
                 </div>
               </Link>
             ) : (
-              <div className="bg-background p-2 sm:p-4 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 aspect-w-16 aspect-h-9">
+              <div className="bg-background px-2 py-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 aspect-w-16 aspect-h-9">
                 <img
                   src={src}
                   alt={`Slide ${index}`}
