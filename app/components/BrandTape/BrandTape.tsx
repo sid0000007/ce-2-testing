@@ -55,7 +55,7 @@ const brands = [
   },
   {
     name: "",
-    image: "/brands/Final_Keshet.png",
+    image: "/brands/keshet_v2_circle.png",
     circle: false,
   },
   {
